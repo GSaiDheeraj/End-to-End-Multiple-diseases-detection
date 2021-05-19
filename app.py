@@ -1,13 +1,12 @@
 from flask import Flask, render_template, url_for, flash, redirect
 from flask import request
 from flask import send_from_directory
-from flask_socketio import SocketIO
 
 import numpy as np
 import tensorflow
 from tensorflow import keras
 import tensorflow as tf
-
+from keras.models import load_model
 import os
 
 
@@ -30,8 +29,8 @@ STATIC_FOLDER = 'static'
 
 # global graph
 # graph = tf.get_default_graph()
-model = tensorflow.keras.models.load_model('model111.h5')
-model1 = tensorflow.keras.models.load_model("pneumonia.h5")
+model = load_model('model111.h5')
+model1 = load_model("pneumonia.h5")
 model2 = tensorflow.keras.models.load_model("Covid_model.h5")
 
 #Malaria
@@ -200,4 +199,4 @@ def Pneumonia():
     return render_template("pneumonia.html")
 
 if __name__ == "__main__":
-    socketio.run(app)
+	app.run(debug=True)
