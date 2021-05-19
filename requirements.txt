@@ -1,0 +1,159 @@
+absl-py==0.11.0
+argon2-cffi @ file:///C:/ci/argon2-cffi_1596826740294/work
+astor==0.8.1
+async-generator==1.10
+attrs @ file:///tmp/build/80754af9/attrs_1604765588209/work
+backcall==0.2.0
+beautifulsoup4==4.9.3
+bleach @ file:///tmp/build/80754af9/bleach_1600439572647/work
+bs4==0.0.1
+cached-property==1.5.2
+catboost==0.24.4
+certifi==2020.6.20
+cffi @ file:///C:/ci/cffi_1606255201193/work
+chardet==4.0.0
+click==7.1.2
+colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+cycler==0.10.0
+decorator==4.4.2
+defusedxml==0.6.0
+dlib @ https://pypi.python.org/packages/da/06/bd3e241c4eb0a662914b3b4875fc52dd176a9db0d4a2c915ac2ad8800e9e/dlib-19.7.0-cp36-cp36m-win_amd64.whl#md5=b7330a5b2d46420343fbed5df69e6a3f
+docopt==0.6.2
+entrypoints==0.3
+face-recognition==1.3.0
+face-recognition-models==0.3.0
+Flask==1.1.2
+Flask-Cors==3.0.10
+Flask-WTF==0.14.3
+gast==0.4.0
+graphviz==0.16
+grpcio==1.34.0
+h5py==2.9.0
+idna==2.10
+imageio==2.9.0
+imageio-ffmpeg==0.4.3
+imbalanced-learn==0.7.0
+imblearn==0.0
+importlib-metadata==3.3.0
+imutils==0.5.4
+ipykernel @ file:///C:/ci/ipykernel_1596206775157/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///C:/ci/ipython_1593446240034/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipywidgets @ file:///tmp/build/80754af9/ipywidgets_1608834360725/work
+itsdangerous==1.1.0
+jedi @ file:///C:/ci/jedi_1611341129952/work
+Jinja2==2.11.2
+joblib==1.0.0
+jsonify==0.5
+jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
+jupyter==1.0.0
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1601311786391/work
+jupyter-console @ file:///tmp/build/80754af9/jupyter_console_1598884538475/work
+jupyter-core @ file:///C:/ci/jupyter_core_1606149071529/work
+jupyterlab-pygments @ file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work
+jupyterlab-widgets==1.0.0
+jupyterthemes==0.20.0
+kaggle==1.5.12
+Keras==2.2.4
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.2
+kiwisolver==1.3.1
+lesscpy==0.14.0
+lightgbm==3.1.1
+lxml==4.6.2
+Markdown==3.3.3
+MarkupSafe==1.1.1
+matplotlib==3.3.3
+mistune==0.8.4
+mkl-fft==1.2.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+MouseInfo==0.1.3
+moviepy==1.0.3
+nbclient @ file:///tmp/build/80754af9/nbclient_1602783176460/work
+nbconvert @ file:///C:/ci/nbconvert_1601896775581/work
+nbformat @ file:///tmp/build/80754af9/nbformat_1602783287752/work
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1606153767164/work
+networkx==2.5
+nltk==3.5
+notebook @ file:///C:/ci/notebook_1608817471483/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603480701039/work
+opencv-python==4.4.0.46
+packaging @ file:///tmp/build/80754af9/packaging_1607971725249/work
+pandas==1.1.5
+pandas-datareader==0.9.0
+pandocfilters @ file:///C:/ci/pandocfilters_1605120535071/work
+parso==0.8.1
+patsy==0.5.1
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==8.0.1
+pipreqs==0.4.10
+plotly==4.14.1
+ply==3.11
+proglog==0.1.9
+prometheus-client @ file:///tmp/build/80754af9/prometheus_client_1606344362066/work
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1602688806899/work
+protobuf==3.14.0
+psutil==5.8.0
+PyAutoGUI==0.9.52
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+PyGetWindow==0.0.9
+Pygments @ file:///tmp/build/80754af9/pygments_1607368905949/work
+PyMsgBox==1.0.9
+pyodbc==4.0.30
+pyparsing==2.4.7
+pyperclip==1.8.1
+PyRect==0.1.4
+pyrsistent @ file:///C:/ci/pyrsistent_1600141799440/work
+PyScreeze==0.1.26
+python-dateutil==2.8.1
+python-git==2018.2.1
+python-slugify==5.0.2
+PyTweening==1.0.3
+pytz==2020.5
+PyWavelets==1.1.1
+pywin32==227
+pywinpty==0.5.7
+PyYAML==5.3.1
+pyzmq==20.0.0
+qtconsole @ file:///tmp/build/80754af9/qtconsole_1600870028330/work
+QtPy==1.9.0
+regex==2020.11.13
+requests==2.25.1
+retrying==1.3.3
+scikit-image==0.17.2
+scikit-learn==0.24.0
+scipy @ file:///C:/ci/scipy_1597675683670/work
+seaborn==0.11.1
+Send2Trash @ file:///tmp/build/80754af9/send2trash_1607525499227/work
+six @ file:///C:/ci/six_1605187303045/work
+sklearn==0.0
+soupsieve==2.1
+statsmodels==0.12.2
+tensorboard==1.12.2
+tensorflow==1.12.0
+termcolor==1.1.0
+terminado==0.9.1
+test-module==1.1.0
+testModule==1.0.0
+testpath==0.4.4
+text-unidecode==1.3
+thorpy==1.7
+threadpoolctl==2.1.0
+tifffile==2020.9.3
+tmdbv3api==1.7.4
+tornado @ file:///C:/ci/tornado_1606942379977/work
+tqdm==4.55.0
+traitlets==4.3.3
+twitter==1.18.0
+typing-extensions==3.7.4.3
+urllib3==1.26.2
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+webencodings==0.5.1
+Werkzeug==1.0.1
+widgetsnbextension==3.5.1
+wincertstore==0.2
+WTForms==2.3.3
+xgboost==1.3.1
+yarg==0.1.9
+zipp @ file:///tmp/build/80754af9/zipp_1604001098328/work
