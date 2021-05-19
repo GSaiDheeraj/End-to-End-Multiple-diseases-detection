@@ -6,7 +6,6 @@ import numpy as np
 import tensorflow
 from tensorflow import keras
 import tensorflow as tf
-from keras.models import load_model
 import os
 
 
@@ -29,8 +28,8 @@ STATIC_FOLDER = 'static'
 
 # global graph
 # graph = tf.get_default_graph()
-model = load_model('model111.h5')
-model1 = load_model("pneumonia.h5")
+model = tensorflow.keras.models.load_model('model111.h5')
+model1 = tensorflow.keras.models.load_model("pneumonia.h5")
 model2 = tensorflow.keras.models.load_model("Covid_model.h5")
 
 #Malaria
