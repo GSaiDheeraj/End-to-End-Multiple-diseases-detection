@@ -1,17 +1,15 @@
-# Important Modules
 from flask import Flask, render_template, url_for, flash, redirect
-# from forms import RegistrationForm, LoginForm
-
 from flask import request
-import numpy as np
-import tensorflow
-
-from tensorflow import keras
-from keras.models import load_model
-import os
 from flask import send_from_directory
 
+import numpy as np
+import tensorflow
+from tensorflow import keras
 import tensorflow as tf
+
+import os
+
+
 
 app = Flask(__name__, template_folder='template')
 
@@ -30,8 +28,8 @@ STATIC_FOLDER = 'static'
 
 # global graph
 # graph = tf.get_default_graph()
-model = load_model('model111.h5')
-model1 = load_model("pneumonia.h5")
+model = tensorflow.keras.models.load_model('model111.h5')
+model1 = tensorflow.keras.models.load_model("pneumonia.h5")
 model2 = tensorflow.keras.models.load_model("Covid_model.h5")
 
 #Malaria
