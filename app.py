@@ -1,6 +1,7 @@
 from flask import Flask, render_template, url_for, flash, redirect
 from flask import request
 from flask import send_from_directory
+from flask_socketio import SocketIO
 
 import numpy as np
 import tensorflow
@@ -12,6 +13,7 @@ import os
 
 
 app = Flask(__name__, template_folder='template')
+socketio = SocketIO(app)
 
 # RELATED TO THE SQL DATABASE
 app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'
