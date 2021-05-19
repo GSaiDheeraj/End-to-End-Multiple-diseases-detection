@@ -8,3 +8,4 @@ Pillow>=5.4.0
 tensorflow-cpu
 keras==2.2.4
 numpy==1.19.2
+streamlit
