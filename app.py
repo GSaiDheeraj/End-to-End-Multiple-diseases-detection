@@ -6,7 +6,8 @@ from flask import request
 import numpy as np
 import tensorflow
 
-
+from tensorflow import keras
+from keras.models import load_model
 import os
 from flask import send_from_directory
 
@@ -18,7 +19,6 @@ app = Flask(__name__, template_folder='template')
 app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///site.db"
 
-import keras
 
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -26,8 +26,7 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 UPLOAD_FOLDER = 'uploads'
 STATIC_FOLDER = 'static'
 
-import tensorflow
-from keras.models import load_model
+
 
 # global graph
 # graph = tf.get_default_graph()
