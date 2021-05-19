@@ -1,7 +1,7 @@
 # Important Modules
 from flask import Flask, render_template, url_for, flash, redirect
 # from forms import RegistrationForm, LoginForm
-import joblib
+
 from flask import request
 import numpy as np
 import tensorflow
@@ -29,8 +29,8 @@ STATIC_FOLDER = 'static'
 import tensorflow
 from keras.models import load_model
 
-global graph
-graph = tf.get_default_graph()
+# global graph
+# graph = tf.get_default_graph()
 model = load_model('model111.h5')
 model1 = load_model("pneumonia.h5")
 model2 = tensorflow.keras.models.load_model("Covid_model.h5")
@@ -94,7 +94,7 @@ def upload_file():
             else:
                 prediction = "Result is accurate"
 
-             return render_template('malariapredict.html', image_file_name=file.filename, label=label, accuracy=accuracy, prediction=prediction)
+            return render_template('malariapredict.html', image_file_name=file.filename, label=label, accuracy=accuracy, prediction=prediction)
         except:
             flash("Please select the image first !!", "danger")
             return redirect(url_for("Malaria"))
