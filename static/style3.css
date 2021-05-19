@@ -1,0 +1,97 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #ecf0f3;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'lato', sans-serif;
+	height: 120vh;
+  width: 100vw;
+	color: #555;
+	font-weight: 700;
+	margin: 0;
+}
+.login-form{
+	width: 450px;
+	height: 750px;
+	padding: 50px 35px 35px 35px;
+	box-shadow: 10px 10px 25px #cbd0d4,-10px -10px 25px #fff;
+	border-radius: 35px;
+}
+.logo{
+	border-radius: 50%;
+	box-shadow: 0px 0px 2px #919191,0px 0px 5px #ecf0f3, 10px 10px 15px #dbdbdb,-10px -10px 10px #fff;
+	width: 100px;
+	height: 100px;
+margin: 0 auto;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.title{
+	font-size: 30px;
+	text-align: center;
+	padding-top: 25px;
+color: #50e5b9;
+	letter-spacing: 0.5px;
+}
+.sub-title{
+	font-size: 10px;
+	letter-spacing: 1px;
+color: #50e5b9;
+	text-align: center;
+}
+.form{
+	width: 100%;
+	padding: 50px 5px 5px 5px;
+}
+.form input{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 18px;
+	color: #555;
+	height: 50px;
+	padding: 20px 10px 20px  5px;
+}
+.username,.password{
+	border-radius: 20px;
+	margin-bottom: 30px;
+	box-shadow: inset 10px 10px 10px #cbced1, inset -10px -10px 10px #fff;
+}
+.form svg{
+	height: 22px;
+	margin: 0 10px -3px  25px;
+	color: #555;
+}
+button{
+	outline: none;
+	border: none;
+	width: 100%;
+	background: #50e5b9;
+
+	font-size: 20px;
+	font-weight: 700;
+	font-family: "Lato",sans-serif;
+	text-align: center;
+	border-radius: 30px;
+	height: 60px;
+	box-shadow: 3px 3px 8px #b1b1b1,-3px -3px 8px #fff;
+	color: #fff;
+	transition: all 0.5s;
+
+}
+button:hover{
+	background: #02c8db;
+}
+button:active{
+	background: #88ef96;
+}
