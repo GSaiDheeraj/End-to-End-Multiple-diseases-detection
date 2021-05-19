@@ -9,3 +9,4 @@ tensorflow-cpu
 keras==2.2.4
 numpy==1.19.2
 streamlit
+Flask-SocketIO
