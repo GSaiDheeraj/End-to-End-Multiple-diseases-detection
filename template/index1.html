@@ -15,21 +15,7 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
 </head>
-
-    <style>
-    #main-footer
-    {
-      color: #FFFFFF;
-      font-family: "Segoe UI";
-      background: #2B2B2B;
-      text-align: center;
-      margin-top: 108px;
-      padding: 16px;
-      bottom: 8px;
-    }</style>
-
 <body>
-<header class="site-header">
   <div class= "wrapper">
     <div class="nav">
       <div class="logo">
@@ -38,14 +24,18 @@
         </h4>
       </div>
         <div class="links">
-          <a href="/home" class="mainlink">Home</a>
+          <a href="/" class="mainlink">Home</a>
           <a href="#">Help</a>
           <a href="/about">About</a>
         <!--  <a href="#">Search</a> -->
+
+          <a href="/login">Login</a>
+          <a href="/signup">SignUp</a>
+
         </div>
       </div>
 </div>
-</header>
+
 
       <div class="landing">
         <div class="landingText">
@@ -57,11 +47,17 @@
       </div>
     </div>
 
+<br>
+<br>
+<br>
 
     <div class="wrap">
 <div class="title">
   <h1> Diseases Identification</h1>
 </div>
+
+
+
 <div class="cards" data-toggle="modal" data-target="#exampleModal">
   <div class="card1">
   <!-- <img src="covid.jfif" alt=""> -->
@@ -82,7 +78,6 @@
   </div>
 
   <div class="card1" data-toggle="modal" data-target="#exampleModal">
- <!-- <img src="malaria.jfif" alt=""> -->
 <img src="{{ url_for('static', filename='malaria.jfif') }}"/>
   <div class="info">
   <h1><a class="nav-item nav-link" href="/Malaria">Malaria</a></h1>
@@ -90,6 +85,8 @@
   <a href="/about"class="btn">Readmore</a>
   </div>
   </div>
+
+
   <!-- <div class="card1" data-toggle="modal" data-target="#exampleModal">
   <img src="bg2.png" alt="">
   <div class="info">
@@ -104,6 +101,8 @@
   <a href="#"class="btn">Readmore</a>
   </div>
   </div> -->
+
+
 </div>
 </div>
 
@@ -121,29 +120,25 @@
         <form action="index.html">
           <input type="file" onchange="previewFile()"><br>
           <img src="" height="200" alt="Image preview..." id="disease-img">
-
--->
 </form>
       </div>
     </div>
   </div>
 </div> 
-
-   <p><b>Developer's Details</b></p>
+-->
+<br>
+<br>
+<br>
+    <p><b>Developer's Details</b></p>
       <p>Name: G.SaiDheeraj,V.Yeshwanth <br></p>
-
 <footer class="white-section" id="footer">
   <div class="contain">
     <i class="social-icon fab fa-facebook-f"></i>
     <i class="social-icon fab fa-twitter"></i>
     <i class="social-icon fab fa-instagram"></i>
     <i class="social-icon fas fa-envelope"></i>
-
   </div>
 </footer>
-
-
-
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
