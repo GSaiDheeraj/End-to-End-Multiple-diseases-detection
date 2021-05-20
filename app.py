@@ -198,7 +198,6 @@ def Malaria():
 def Pneumonia():
     return render_template("pneumonia.html")
 
-from app import flaskapp
 
 if __name__ == "__main__":
     app.run(debug=True)
