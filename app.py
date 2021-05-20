@@ -163,7 +163,7 @@ def send_file(filename):
     return send_from_directory(UPLOAD_FOLDER, filename)
 
 #Initial Home Page
-@app.route("/")
+
 @app.route("/index1")
 def index():
     return render_template("index1.html")
@@ -177,13 +177,14 @@ def index2():
 def about():
     return render_template("about.html")
 
-@app.route("/login")
-def login():
-    return render_template("login.html")
-
 @app.route("/signup")
 def signup():
     return render_template("signup.html")
+
+@app.route("/")
+@app.route("/login")
+def login():
+    return render_template("login.html")
 
 @app.route("/covid_19")
 def covid_19():
