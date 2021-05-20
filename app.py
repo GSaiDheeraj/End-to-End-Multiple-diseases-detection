@@ -11,13 +11,13 @@ import os
 
 
 
-app = Flask(__name__, template_folder='template')
+app=Flask(__name__,template_folder='template')
 #app = Flask(__name__, template_folder='template')
 #socketio = SocketIO(app)
 
 # RELATED TO THE SQL DATABASE
 app.config['SECRET_KEY'] = "UddA58IkCqP5nZkwEzA7YA"
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///site.db"
+#app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///site.db"
 
 
 
@@ -200,5 +200,5 @@ def Pneumonia():
 
 from app import flaskapp
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
