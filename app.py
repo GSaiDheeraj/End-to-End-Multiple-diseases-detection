@@ -13,7 +13,7 @@ import os
 
 app = Flask(__name__, template_folder='template')
 #app = Flask(__name__, template_folder='template')
-socketio = SocketIO(app)
+#socketio = SocketIO(app)
 
 # RELATED TO THE SQL DATABASE
 app.config['SECRET_KEY'] = "UddA58IkCqP5nZkwEzA7YA"
@@ -198,5 +198,7 @@ def Malaria():
 def Pneumonia():
     return render_template("pneumonia.html")
 
-if __name__ == "__main__":
-    socketio.run(app)
+from app import flaskapp
+
+if __name__ == '__main__':
+    app.run(debug=True)
