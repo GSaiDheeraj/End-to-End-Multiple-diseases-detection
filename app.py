@@ -164,19 +164,6 @@ def send_file(filename):
 
 #Initial Home Page
 
-@app.route("/index1")
-def index():
-    return render_template("index1.html")
-
-#logged in Home page
-@app.route("/index2")
-def index2():
-    return render_template("index2.html")
-
-@app.route("/about")
-def about():
-    return render_template("about.html")
-
 @app.route("/signup")
 def signup():
     return render_template("signup.html")
@@ -185,6 +172,16 @@ def signup():
 @app.route("/login")
 def login():
     return render_template("login.html")
+
+
+@app.route("/home")
+def home():
+    return render_template("home.html")
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
 
 @app.route("/covid_19")
 def covid_19():
