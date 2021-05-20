@@ -12,10 +12,11 @@ import os
 
 
 app = Flask(__name__, template_folder='template')
+#app = Flask(__name__, template_folder='template')
 socketio = SocketIO(app)
 
 # RELATED TO THE SQL DATABASE
-app.config['SECRET_KEY'] = '5791628bb0b13ce0c676dfde280ba245'
+app.config['SECRET_KEY'] = "UddA58IkCqP5nZkwEzA7YA"
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///site.db"
 
 
@@ -24,7 +25,6 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 
 UPLOAD_FOLDER = 'uploads'
 STATIC_FOLDER = 'static'
-
 
 
 # global graph
@@ -49,7 +49,7 @@ def api1(full_path):
     #with graph.as_default():
     data = keras.preprocessing.image.load_img(full_path, target_size=(224, 224, 3))
     data = np.expand_dims(data, axis=0)
-    data = data / 255
+    data = data * 1.0/ 255
 
     # with graph.as_default():
     predicted = model2.predict(data)
@@ -60,7 +60,7 @@ def api111(full_path):
     #with graph.as_default():
     data = keras.preprocessing.image.load_img(full_path, target_size=(224, 224, 3))
     data = np.expand_dims(data, axis=0)
-    data = data / 255
+    data = data * 1.0/ 255
 
     # with graph.as_default():
     predicted = model2.predict(data)
