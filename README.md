@@ -12,7 +12,7 @@ G.Sai Dheeraj : Deep Learnining model/Deployment
   5) Modelling : Used VGG-16, VGG-19, Inceptoion Resnet-V2                                                                                                                                                                                                                                                                                                                      
 
                                                            
-     -Why These three models?
+     -Why These three models?                                                                                                                                                                                         
      Answer) Usually, we start with the simple architecture and end with the complex architecture.
                                                                                                                                                                                         From Here Web Development Cycle starts 
      1) Requirements Gathering : Understand the requirement and data source
