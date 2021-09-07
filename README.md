@@ -1,8 +1,8 @@
 # Multiple-diseases-detection
 https://multiplediseasedetection.herokuapp.com/
-
+                                                                                                                                                                                   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                                                                                                                                  
 Vootla Yeswanth : Web Development/ UI                                                                                                                                                                                      
-G.Sai Dheeraj : Deep Learnining model/Deployment                                                                                                                                               
+G.Sai Dheeraj : Deep Learnining model/Deployment                                                                                                                                   --------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---                                                                                                                                                                                                  
 Methodology: CRISP-DM  (Cross Industry Standard process for Data Mining)
   1) Problem : Detect the Disease using medical images.
   2) Data Gathering : Kaggle 
