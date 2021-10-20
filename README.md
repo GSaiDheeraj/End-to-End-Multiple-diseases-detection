@@ -24,3 +24,8 @@ G.Sai Dheeraj : Deep Learnining model/Deployment
      7) Integreation with Deep learning models                                                                                                                                       
    6) Deployment in the cloud
    7) maintainence.
+
+
+
+https://user-images.githubusercontent.com/60067496/138135602-2dda2c76-fea2-44b7-a5f7-4592658864fc.mp4
+
